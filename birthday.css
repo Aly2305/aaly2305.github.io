@@ -1,0 +1,84 @@
+.center-top {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color:crimson;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px; /* Ajusta esta altura según sea necesario */
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.left-column, .right-column {
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    background-color: white; /* Fondo de la columna izquierda y derecha */
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Disposición vertical de las imágenes */
+    align-items: center; /* Centra las imágenes horizontalmente */
+}
+
+.left-column img, .right-column img {
+    width: 80%; /* Ajusta el tamaño de las imágenes según sea necesario */
+    margin: 10px 0; /* Espacio entre las imágenes */
+    border: 2px solid #ccc; /* Opcional: agregar borde a las imágenes */
+}
+
+.center-column {
+    flex: 1; /* Ocupa el espacio restante */
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    background-color: gold; /* Fondo amarillo */
+    padding: 20px;
+    max-width: 80%; /* Ajusta el ancho máximo según sea necesario */
+    box-sizing: border-box;
+    text-align: center; /* Centra el texto dentro del div */
+}
+
+#mandato{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     text-decoration: underline;
+}
+
+#segundo, #primera, #tercera{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:cornflowerblue; /* Fondo del pie de página */
+}
+
+.footer-box {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Ajusta el tamaño de los cuadros según sea necesario */
+}
